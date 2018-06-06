@@ -1,0 +1,32 @@
+{
+  "code": 1000,
+  "msg": "成功",
+  "data": {
+    "attentionGarden": [{
+        "id": "avd",
+        "name": "远洋新天地"
+      },
+      {
+        "id": "sdf",
+        "name": "远洋新天地二期"
+      }
+    ],
+    "attentionPrice": {
+      "min": 10,
+      "max": 100
+    },
+    "attentionBuildArea": {
+      "min": 10,
+      "max": 100
+    },
+    "attentionPattern": [{
+        "id": "ONE",
+        "name": "单身公寓"
+      },
+      {
+        "id": "DOUBLE",
+        "name": " 二房"
+      }
+    ]
+  }
+}

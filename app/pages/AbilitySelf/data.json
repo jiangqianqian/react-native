@@ -1,0 +1,47 @@
+{
+  "code": "C0000",
+  "msg": "成功",
+  "data": {
+    "self": true,
+    "level": 1,
+    "levelName": "赤脚大仙",
+    "score": 150,
+    "nextLevelScore": 300,
+    "branchRank": 10,
+    "areaRank": 30,
+    "regionRank": 150,
+    "cityRank": 2000,
+    "task": 10,
+    "ownerScore": 30,
+    "contributionScore": 80,
+    "growingScore": 40,
+    "customerScore": 90,
+    "viewTimes": 20,
+    "taskRecordCount": 20,
+    "taskRecords": [{
+        "createdAt": "2016.10.10",
+        "taskName": "3天内完成实勘",
+        "taskGroup": "新手任务",
+        "ownerScore": -1,
+        "contributionScore": 2
+      },
+      {
+        "createdAt": "10.10",
+        "taskName": "3天内完成实勘",
+        "taskGroup": "新手任务新手任务",
+        "ownerScore": 1,
+        "contributionScore": -2
+      },
+      {
+        "createdAt": "10.09",
+        "taskName": "3天内完成实勘3天内完成实勘3天内完成实勘3天",
+        "taskDesc": "完成带看分数增加，完成带看分数增加，完成带看分数增加，完成带看分数增加，",
+        "ownerScore": 1,
+        "contributionScore": 2,
+        "growingScore": 5,
+        "customerScore": 5
+
+      }
+    ]
+  }
+}

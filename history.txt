@@ -1,0 +1,96 @@
+1. 转私页面:
+名字: CUSTOMER_TURN_PRIVATE
+参数:  Object
+参数举例: {
+          userInfo: {
+            baseUrl: '',
+            sessionId: '123456',
+            cell: '13846153136',
+            regAt: '2017-04-14',
+            activeAt: '2017-04-14',
+            lastBrowseAt: '2017-04-14',
+            isPrivate: false,
+            name: '张三' ,
+            beInviteId: '12',
+            deviceId: '12'
+          },
+          rent: {
+            "attentionGarden": [{
+                "id": "avd",
+                "name": "远洋新天地"
+              },
+              {
+                "id": "sdf",
+                "name": "远洋新天地二期"
+              }],
+            "attentionPrice": {
+              "min": 10,
+              "max": 100
+            },
+            "attentionBuildArea": {
+              "min": 10,
+              "max": 100
+            },
+            "attentionPattern": [{
+                "id": "ONE",
+                "name": "单身公寓"
+              },
+              {
+                "id": "DOUBLE",
+                "name": " 二房"
+              },
+              {
+                "id": "DOUBLE",
+                "name": " 三房"
+              },
+              {
+                "id": "DOUBLE",
+                "name": " 四房"
+              },
+              {
+                "id": "DOUBLE",
+                "name": " 别墅"
+              },
+              {
+                "id": "DOUBLE",
+                "name": " 五室及以上"
+              }]
+          },
+          sale: {
+            "attentionGarden": [{
+                "id": "avd",
+                "name": "远洋新天地"
+              },
+              {
+                "id": "sdf",
+                "name": "远洋新天地二期"
+              }],
+            "attentionPrice": {
+              "min": 10,
+              "max": 100
+            },
+            "attentionBuildArea": {
+              "min": 10,
+              "max": 100
+            },
+            "attentionPattern": [{
+                "id": "ONE",
+                "name": "单身公寓"
+              },
+              {
+                "id": "DOUBLE",
+                "name": " 二房"
+              }]
+          }
+        }
+备注:  无数据时 rent: {} 或 sale: {},
+
+2. 查看适合客户的二手房或出租房
+名字: CHECK_MATHING_HOUSELIST
+参数:  Object
+参数举例: {
+          args: "{"type":"RENT","attentionGarden":[{"id":"avd","name":"远洋新天地"},{"id":"sdf","name":"远洋新天地二期"}],"attentionPrice":{"min":10,"max":100},"attentionBuildArea":{"min":10,"max":100},"attentionPattern":[{"id":"ONE","name":"单身公寓"},{"id":"DOUBLE","name":" 二房"},{"id":"DOUBLE","name":" 三房"},{"id":"DOUBLE","name":" 四房"},{"id":"DOUBLE","name":" 别墅"},{"id":"DOUBLE","name":" 五室及以上"}]}"
+        }
+备注: "type":"RENT" 或者 "type":"SALE"
+      未激活不请求后端接口 传参为: {args: "{"type":"RENT"}"}
+      请求后端接口但是某些字段数据为空 传参为: {args: "{"type":"RENT","attentionGarden":[],"attentionPrice":{"min":10,"max":100},"attentionBuildArea":{"min":10,"max":100},"attentionPattern":[{"id":"ONE","name":"单身公寓"},{"id":"DOUBLE","name":" 二房"},{"id":"DOUBLE","name":" 三房"},{"id":"DOUBLE","name":" 四房"},{"id":"DOUBLE","name":" 别墅"},{"id":"DOUBLE","name":" 五室及以上"}]}"}

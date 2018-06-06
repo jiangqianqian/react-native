@@ -1,0 +1,2 @@
+1. 将本目录下的index.js替换掉/broker-app/node_modules/native-echarts/src/components/Echarts/index.js
+2. 将本目录下的renderChart.js替换掉/broker-app/node_modules/native-echarts/src/components/Echarts/renderChart.js

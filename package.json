@@ -1,0 +1,51 @@
+{
+  "name": "broker-app",
+  "version": "0.0.1",
+  "author": "qfang.com",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "_comment": "/* 生成压缩包文件 */",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output ./android/app/src/main/assets/broker.android.bundle --sourcemap-output ./android/app/src/main/assets/brokerapp.android.map --assets-dest ./android/app/src/main/res/",
+    "bundle-ios": "react-native bundle --platform ios --dev false --entry-file index.ios.js --bundle-output ./ios/RNBundle/broker.jsbundle --assets-dest ./ios/RNBundle",
+    "bundle": "npm run bundle-ios && npm run bundle-android && npm run zip-ios && npm run zip-android",
+    "clean": "rm -rf android/ ios/ && git checkout -- android ios",
+    "zip-android": "zip -r bundle/android.bundle.zip android/app/src/main/assets/ android/app/src/main/res/",
+    "zip-ios": "zip -r bundle/ios.bundle.zip ios/RNBundle"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-plugin-syntax-decorators": "^6.13.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-remove-console": "^6.8.4",
+    "native-echarts": "^0.3.0",
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.48.3",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-image-placeholder": "^1.0.7",
+    "react-native-root-toast": "^2.2.1",
+    "react-native-scrollable-tab-view": "^0.6.6",
+    "react-native-storage": "^0.2.2",
+    "react-native-swiper": "^1.5.4",
+    "react-native-tab-view": "0.0.67",
+    "react-native-ultimate-listview": "3.1.6",
+    "react-navigation": "^1.0.0-beta.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

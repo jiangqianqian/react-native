@@ -1,0 +1,148 @@
+{
+  "code": "C0000",
+  "msg": "成功",
+  "data": {
+    "taskGroups": [{
+        "code": "TIRO",
+        "name": "新手任务"
+      },
+      {
+        "code": "DAILY",
+        "name": "日常任务"
+      },
+      {
+        "code": "SPECIAL",
+        "name": "特殊任务"
+      }
+    ],
+    "hasTiroTask": true,
+    "curTaskGroup": "DAILY",
+    "pagination": {
+      "currentPage": 1,
+      "pageSize": 10,
+      "recordCount": 10,
+      "pageCount": 4,
+      "items": [{
+          "taskId": "878989-123213dsfv-mkj",
+          "taskName": "独家人",
+          "taskEnd": "2017.11.27结束",
+          "taskDesc": "独家人",
+          "ownerScore": -1,
+          "growingScore": 2,
+          "limitMode": "ONE",
+          "taskProgress": "本周进度1/3"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "2017.11.22结束",
+          "completeTimes": 1,
+          "taskDesc": "实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "EVERYDAY",
+          "taskProgress": "本周进度1/3"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "2017.11.22结束",
+          "completeTimes": 1,
+          "taskDesc": "实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "EVERYDAY",
+          "taskProgress": "本周进度1/3"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "已结束",
+          "complete": true,
+          "completeTimes": 1,
+          "taskDesc": "实勘人实勘人实勘勘人实勘人实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "UNRESTRICTED"
+        },
+        {
+          "taskId": "8dsf321-dge2334-sfv-mkj",
+          "taskName": "实勘人",
+          "taskEnd": "2017.11.22结束",
+          "completeTimes": 1,
+          "taskDesc": "实勘人",
+          "ownerScore": 1,
+          "growingScore": 2,
+          "limitMode": "EVERYDAY",
+          "taskProgress": "本周进度1/3"
+        }
+      ]
+    }
+  }
+}
